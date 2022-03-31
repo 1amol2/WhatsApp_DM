@@ -1,0 +1,3 @@
+# WhatsappDirectMessage
+Sends messages to unsaved numbers,
+It requires the phone number of the recipient and the message you want to type...

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFEAEAEA">
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="phone"
+		android:layout_height="wrap_content"
+		android:ems="12"
+		android:id="@+id/intentPhoneNumber"
+		android:hint="Phone Number"
+        android:maxLength="10"
+		android:layout_margin="15dp"
+		android:padding="10dp"
+		android:background="@drawable/edittext_bg"
+		android:elevation="10dp"
+		android:typeface="serif"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="textMultiLine"
+		android:layout_height="wrap_content"
+		android:ems="12"
+		android:hint="Message"
+		android:gravity="top"
+		android:layout_margin="15dp"
+		android:padding="10dp"
+		android:background="@drawable/edittext_bg"
+		android:id="@+id/intentMessage"
+		android:elevation="10dp"
+		android:typeface="serif"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Send Message"
+		android:layout_gravity="right"
+		android:layout_margin="10dp"
+		android:padding="15dp"
+		android:id="@+id/sendIntentMessage"
+		android:backgroundTint="#FF3A3A3A"
+		android:textColor="#FFFFFFFF"
+		android:typeface="serif"/>
+
+</LinearLayout>
+
